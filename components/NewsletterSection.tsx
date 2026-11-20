@@ -2,7 +2,7 @@
 
 export default function NewsletterSection() {
   return (
-    <section id="newsletter" className="w-full bg-[#4A5337] py-[70px] px-[4vw]">
+    <section id="newsletter" className="w-full bg-[#4A5337] py-[70px] px-[4vw] scroll-mt-24 sm:scroll-mt-28">
       <form onSubmit={(e) => e.preventDefault()}>
         <h3 className="mb-4 text-center text-2xl leading-[1.2em] tracking-[.13em] uppercase text-white">
           Subscribe to our newsletter

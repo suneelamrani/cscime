@@ -2,8 +2,10 @@ import Link from "next/link";
 
 export default function BuyersSellersSection() {
   return (
-    <section className="w-full bg-[#EAE6DB]">
-      <div className="max-w-[1665px] mx-auto px-[4vw] py-7">
+    <section id="buyers-sellers" className="w-full bg-[#EAE6DB]">
+      {/* Buyers Section */}
+      <div id="buyers" className="max-w-[1665px] mx-auto px-[4vw] py-7 scroll-mt-24 sm:scroll-mt-28 relative">
+        <span id="buyer" className="sr-only" />
         <div className="w-full xl:w-[82%] mx-auto flex flex-col lg:flex-row justify-between gap-y-6 items-center">
           <div className="w-full md:w-[41%]">
             <h2 className="uppercase text-3xl md:text-[36px] font-medium text-black tracking-[.13em] mb-4">
@@ -24,9 +26,9 @@ export default function BuyersSellersSection() {
 
 
             <div className="pt-4.5 flex w-fit">
-              <Link href='#' className="border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out" style={{ borderWidth: "1.5px" }}>
+              <a href='#contact' className="border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out font-normal" style={{ borderWidth: "1.5px" }}>
                 LEARN MORE
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -40,7 +42,9 @@ export default function BuyersSellersSection() {
         </div>
       </div>
 
-      <div className="max-w-[1665px] mx-auto px-[4vw] py-7">
+      {/* Sellers Section */}
+      <div id="sellers" className="max-w-[1665px] mx-auto px-[4vw] py-7 scroll-mt-24 sm:scroll-mt-28 relative">
+        <span id="seller" className="sr-only" />
         <div className="w-full xl:w-[82%] mx-auto flex flex-col lg:flex-row justify-between gap-y-6 items-center">
           <div className="w-full md:w-1/2 md:pr-4">
             <img
@@ -69,9 +73,9 @@ export default function BuyersSellersSection() {
 
 
             <div className="pt-4.5 flex w-fit">
-              <Link href='#' className="border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out" style={{ borderWidth: "1.5px" }}>
+              <a href='#contact' className="border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out font-normal" style={{ borderWidth: "1.5px" }}>
                 LEARN MORE
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -17,19 +17,19 @@ export default function InstagramSection() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:gird-cols-6 xl:grid-cols-8 gap-4 sm:gap-5">
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-1.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/1.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
           </Link>
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-2.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/2.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
           </Link>
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-1.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/3.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <img
                   src="/assets/play-button.png"
@@ -42,7 +42,7 @@ export default function InstagramSection() {
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-2.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/4.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <img
                   src="/assets/play-button.png"
@@ -55,20 +55,20 @@ export default function InstagramSection() {
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-1.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/5.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
           </Link>
 
           {/* Post 6 */}
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-2.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/6.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
           </Link>
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-1.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/4.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <img
                   src="/assets/play-button.png"
@@ -81,7 +81,7 @@ export default function InstagramSection() {
 
           <Link href="#" className="block">
             <div className="relative overflow-hidden group">
-              <img src="/assets/instagram-post-2.webp" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src="/assets/2.jpg" alt="instagram post" className="w-full h-[160px] sm:h-[177px] object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
           </Link>
         </div>

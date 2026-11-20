@@ -25,7 +25,8 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section id="hero" className="w-full h-[65vh] sm:h-[75vh] lg:h-[79vh] relative overflow-hidden bg-neutral-950">
+    <section id="home" className="w-full h-[65vh] sm:h-[75vh] lg:h-[79vh] relative overflow-hidden bg-neutral-950 scroll-mt-24">
+      <span id="hero" className="sr-only" />
       {!mounted ? (
         <div
           className="w-full h-full bg-cover bg-center bg-no-repeat"

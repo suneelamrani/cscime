@@ -14,14 +14,14 @@ export default function FeaturedPropertySection() {
           <div className="w-[90%] md:w-1/2 mx-auto md:mx-left flex items-center justify-start -mt-[73px] md:mt-0">
             <div className="bg-[#eae6db] p-[8%] w-full">
               <h3 className="text-xl md:text-2xl tracking-[.13em] font-medium text-black">
-                EXPERTS IN REFINED COUNTRY LIVING
+                EXPERTS IN REFINED LIVING
               </h3>
 
               <p className="leading-[1.65em] text-sm mt-[4%] mb-[5%] text-black">
-                Country properties offer more than just a place to live; they represent a way of life with a slower pace and a connection to nature. With over 17 years of specialized experience in this unique niche, Carolyn and her team bring a deep understanding of these special properties and the lifestyle that comes along with them, delivering a modern, connected approach to the transaction with unmatched dedication and expertise.
+                Exceptional homes represent more than just an address; they embody a refined lifestyle crafted around quality, privacy, and community. Backed by a strong background in Economics and luxury client advisory, Mike Benedetto and The OP Team bring deep market intelligence and strategic negotiation to every transaction, delivering unmatched dedication and results across Vaughan, King City, and the GTA.
               </p>
 
-              <Link href='#' className="block w-full sm:w-fit border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out" style={{ borderWidth: "1.5px" }}>
+              <Link href='#about' className="block w-full sm:w-fit border border-[#000000e8] text-[#000000e8] px-[2.2em] py-[1.2em] tracking-[.3em] text-xl md:text-[25px] hover:bg-[#000000e8] hover:text-white transition-all duration-300 ease-in-out" style={{ borderWidth: "1.5px" }}>
                 LEARN MORE
               </Link>
             </div>

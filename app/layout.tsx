@@ -9,8 +9,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "cscime",
-  description: "cscime",
+  title: "Mike Benedetto | Luxury Real Estate | Vaughan, King City & GTA",
+  description: "Mike Benedetto – Real Estate Sales Representative with RE/MAX Premier (The OP Team). Distinctive properties, luxury estates, and residential investments in Vaughan, Woodbridge, King City, and the GTA.",
 };
 
 export default function RootLayout({
